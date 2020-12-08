@@ -12,6 +12,7 @@ public class InputStreamApp {
     private static void read() {
         FileInputStream inputStream = null;
         try {
+            // 创建文件 input 字节流
             inputStream = new FileInputStream("java-basic/data/wc.data");
             byte[] buffer = new byte[1024];
             int length = 0;
