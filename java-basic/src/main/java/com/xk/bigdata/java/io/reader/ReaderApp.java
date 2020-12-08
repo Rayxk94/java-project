@@ -12,7 +12,7 @@ public class ReaderApp {
     private static void read() {
         FileReader reader = null;
         try {
-            // 创建一个字符流输入流
+            // 创建一个字符输入流
             reader = new FileReader("java-basic/data/wc.data");
             char[] buffle = new char[1024];
             int length = 0;
